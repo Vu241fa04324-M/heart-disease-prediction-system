@@ -42,8 +42,8 @@ st.set_page_config(
 )
 
 ROOT = Path(__file__).resolve().parent
-MODEL_DIR = ROOT / "models"
-METADATA_DIR = ROOT / "model_metadata"
+MODEL_DIR = ROOT 
+METADATA_DIR = ROOT 
 
 
 @st.cache_data
