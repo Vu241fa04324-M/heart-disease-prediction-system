@@ -1,0 +1,9 @@
+Dataset,Selected Feature Selection Technique,Selected Boosting Algorithm
+Cleveland,ANOVA,XGBoost
+Hungarian,RFE,AdaBoost
+VA,Lasso,XGBoost
+Switzerland,All features,LightGBM
+Statlog,ANOVA,AdaBoost
+SPECT,Hybrid,AdaBoost
+SPECTF,All features,XGBoost
+Heart Failure,RFE,LightGBM

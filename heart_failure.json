@@ -1,0 +1,70 @@
+{
+  "id": "heart_failure",
+  "dataset": "Heart Failure",
+  "input_features": [
+    "age",
+    "anaemia",
+    "creatinine_phosphokinase",
+    "diabetes",
+    "ejection_fraction",
+    "high_blood_pressure",
+    "platelets",
+    "serum_creatinine",
+    "serum_sodium",
+    "sex",
+    "smoking",
+    "time"
+  ],
+  "feature_technique": "RFE",
+  "booster": "LightGBM",
+  "n_training_records": 299,
+  "class_0_count": 203,
+  "class_1_count": 96,
+  "medians": {
+    "age": 60.0,
+    "anaemia": 0.0,
+    "creatinine_phosphokinase": 250.0,
+    "diabetes": 0.0,
+    "ejection_fraction": 38.0,
+    "high_blood_pressure": 0.0,
+    "platelets": 262000.0,
+    "serum_creatinine": 1.1,
+    "serum_sodium": 137.0,
+    "sex": 1.0,
+    "smoking": 0.0,
+    "time": 115.0
+  },
+  "minimums": {
+    "age": 40.0,
+    "anaemia": 0.0,
+    "creatinine_phosphokinase": 23.0,
+    "diabetes": 0.0,
+    "ejection_fraction": 14.0,
+    "high_blood_pressure": 0.0,
+    "platelets": 25100.0,
+    "serum_creatinine": 0.5,
+    "serum_sodium": 113.0,
+    "sex": 0.0,
+    "smoking": 0.0,
+    "time": 4.0
+  },
+  "maximums": {
+    "age": 95.0,
+    "anaemia": 1.0,
+    "creatinine_phosphokinase": 7861.0,
+    "diabetes": 1.0,
+    "ejection_fraction": 80.0,
+    "high_blood_pressure": 1.0,
+    "platelets": 850000.0,
+    "serum_creatinine": 9.4,
+    "serum_sodium": 148.0,
+    "sex": 1.0,
+    "smoking": 1.0,
+    "time": 285.0
+  },
+  "labels": {
+    "0": "Heart disease ABSENT",
+    "1": "Heart disease PRESENT"
+  },
+  "note": "Research/educational prediction only; not a medical diagnosis."
+}
